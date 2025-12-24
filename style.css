@@ -115,3 +115,45 @@ body {
       0 0 40px #ca8a04;
   }
 }
+.neon-text {
+  font-size: clamp(36px, 6vw, 52px);
+}
+
+/* 📱 Mobile Responsive Fix */
+@media (max-width: 480px) {
+
+  .coming-soon {
+    padding: 20px;
+  }
+
+  .neon-text {
+    font-size: 9vw;   /* auto scale with screen */
+    line-height: 1.2;
+  }
+
+  .sub {
+    font-size: 4.2vw;
+  }
+
+  .countdown {
+    gap: 12px;
+    margin-top: 30px;
+  }
+
+  .countdown div {
+    width: 22vw;
+    padding: 14px 8px;
+  }
+
+  .countdown span {
+    font-size: 6vw;
+  }
+
+  .countdown small {
+    font-size: 3vw;
+  }
+
+  .footer {
+    font-size: 3.8vw;
+  }
+}
